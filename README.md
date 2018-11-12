@@ -4,4 +4,4 @@ Made using the [Discord.py library](https://pypi.org/project/discord.py/)
 
 Check this good boye out
 
-![](https://i.imgur.com/QXmkKtH.jpg)
+![](https://i.redd.it/5biem6japkt11.jpg)
