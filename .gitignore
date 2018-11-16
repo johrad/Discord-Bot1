@@ -1,2 +1,5 @@
 TOKEN.js
 node_modules/
+config.js
+config.json
+*.json
