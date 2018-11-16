@@ -1,7 +1,11 @@
 {
     "python.pythonPath": "C:\\Users\\jpdra\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
     "cSpell.enabled": false,
+<<<<<<< HEAD
     "python.linting.pylintEnabled": true,
     "discord.enabled": true,
     "git.ignoreLimitWarning": true
+=======
+    "python.linting.pylintEnabled": true
+>>>>>>> 7efebbaddb51b7c88947b92ad1f440f4e5943ddb
 }
