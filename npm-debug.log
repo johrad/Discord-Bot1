@@ -1,0 +1,880 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'sodium' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 warn package.json discord@0.8.2 No license field.
+5 verbose cache add [ 'sodium', null ]
+6 verbose cache add name=undefined spec="sodium" args=["sodium",null]
+7 verbose parsed url Url {
+7 verbose parsed url   protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'sodium',
+7 verbose parsed url   path: 'sodium',
+7 verbose parsed url   href: 'sodium' }
+8 silly lockFile 6f07dc1d-sodium sodium
+9 verbose lock sodium /home/pi/.npm/6f07dc1d-sodium.lock
+10 silly lockFile 6f07dc1d-sodium sodium
+11 silly lockFile 6f07dc1d-sodium sodium
+12 verbose addNamed [ 'sodium', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 2d70ce0b-sodium sodium@
+15 verbose lock sodium@ /home/pi/.npm/2d70ce0b-sodium.lock
+16 silly addNameRange { name: 'sodium', range: '*', hasData: false }
+17 verbose request where is /sodium
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f37ef79cbe8543f1
+20 verbose url raw /sodium
+21 verbose url resolving [ 'https://registry.npmjs.org/', './sodium' ]
+22 verbose url resolved https://registry.npmjs.org/sodium
+23 verbose request where is https://registry.npmjs.org/sodium
+24 info trying registry request attempt 1 at 22:46:30
+25 verbose etag W/"38816705b52921f3134c6d5c7ee3b771"
+26 http GET https://registry.npmjs.org/sodium
+27 http 304 https://registry.npmjs.org/sodium
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Wed, 26 Dec 2018 22:46:31 GMT',
+28 silly registry.get     connection: 'close',
+28 silly registry.get     'set-cookie':
+28 silly registry.get      [ '__cfduid=d2688fd23a545948c00e53c2a3a87076c1545864391; expires=Thu, 26-Dec-19 22:46:31 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+28 silly registry.get     'cf-cache-status': 'HIT',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     'cf-ray': '48f71580deed427f-OSL',
+28 silly registry.get     etag: '"38816705b52921f3134c6d5c7ee3b771"',
+28 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+28 silly registry.get     'last-modified': 'Thu, 29 Nov 2018 18:06:21 GMT',
+28 silly registry.get     vary: 'accept-encoding, accept',
+28 silly registry.get     'x-amz-meta-rev': '76-915ffb8b818885f3fe3560a3bc8fd685',
+28 silly registry.get     server: 'cloudflare' } ]
+29 verbose etag https://registry.npmjs.org/sodium from cache
+30 silly addNameRange number 2 { name: 'sodium', range: '*', hasData: true }
+31 silly addNameRange versions [ 'sodium',
+31 silly addNameRange   [ '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.0.9',
+31 silly addNameRange     '1.0.10',
+31 silly addNameRange     '1.0.11',
+31 silly addNameRange     '1.0.13',
+31 silly addNameRange     '1.0.15',
+31 silly addNameRange     '1.0.16',
+31 silly addNameRange     '1.0.17',
+31 silly addNameRange     '1.0.18',
+31 silly addNameRange     '1.0.19',
+31 silly addNameRange     '1.0.20',
+31 silly addNameRange     '1.0.21',
+31 silly addNameRange     '1.0.22',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1',
+31 silly addNameRange     '1.1.2',
+31 silly addNameRange     '1.1.3',
+31 silly addNameRange     '1.1.5',
+31 silly addNameRange     '1.1.6',
+31 silly addNameRange     '1.1.7',
+31 silly addNameRange     '1.1.9',
+31 silly addNameRange     '1.1.10',
+31 silly addNameRange     '1.1.11',
+31 silly addNameRange     '1.1.12',
+31 silly addNameRange     '1.1.13',
+31 silly addNameRange     '1.1.14',
+31 silly addNameRange     '1.1.15',
+31 silly addNameRange     '1.1.16',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.2.2',
+31 silly addNameRange     '1.2.3',
+31 silly addNameRange     '2.0.1',
+31 silly addNameRange     '2.0.3',
+31 silly addNameRange     '3.0.0',
+31 silly addNameRange     '3.0.1',
+31 silly addNameRange     '3.0.2' ] ]
+32 verbose addNamed [ 'sodium', '3.0.2' ]
+33 verbose addNamed [ '3.0.2', '3.0.2' ]
+34 silly lockFile 5e475546-sodium-3-0-2 sodium@3.0.2
+35 verbose lock sodium@3.0.2 /home/pi/.npm/5e475546-sodium-3-0-2.lock
+36 silly lockFile 3ce20b92-pmjs-org-sodium-sodium-3-0-2-tgz https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz
+37 verbose lock https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz /home/pi/.npm/3ce20b92-pmjs-org-sodium-sodium-3-0-2-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz',
+38 verbose addRemoteTarball   '4dbd7eb4a21c92ca7e7f684756cd733fee78112e' ]
+39 info retry fetch attempt 1 at 22:46:32
+40 verbose fetch to= /tmp/npm-740-R8amC1sX/registry.npmjs.org/sodium/-/sodium-3.0.2.tgz
+41 http GET https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz
+42 http 200 https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz
+43 silly lockFile 3ce20b92-pmjs-org-sodium-sodium-3-0-2-tgz https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz
+44 silly lockFile 3ce20b92-pmjs-org-sodium-sodium-3-0-2-tgz https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz
+45 silly lockFile 5e475546-sodium-3-0-2 sodium@3.0.2
+46 silly lockFile 5e475546-sodium-3-0-2 sodium@3.0.2
+47 silly lockFile 2d70ce0b-sodium sodium@
+48 silly lockFile 2d70ce0b-sodium sodium@
+49 silly resolved [ { name: 'sodium',
+49 silly resolved     version: '3.0.2',
+49 silly resolved     libsodium_version: '1.0.16',
+49 silly resolved     author: { name: 'Pedro Paixao', email: 'paixaop@gmail.com' },
+49 silly resolved     license: 'MIT',
+49 silly resolved     main: 'index.js',
+49 silly resolved     description: 'Lib Sodium port for node.js',
+49 silly resolved     dependencies: { 'node-addon-api': '*' },
+49 silly resolved     devDependencies:
+49 silly resolved      { istanbul: '>=0.4.5',
+49 silly resolved        mdextract: '^1.0.0',
+49 silly resolved        mocha: '>=5.2.0',
+49 silly resolved        'mocha-istanbul': '^0.3.0',
+49 silly resolved        'node-gyp': '^3.8.0' },
+49 silly resolved     scripts:
+49 silly resolved      { test: 'make test',
+49 silly resolved        preinstall: 'node install.js --preinstall',
+49 silly resolved        install: 'node install.js --install' },
+49 silly resolved     repository:
+49 silly resolved      { type: 'git',
+49 silly resolved        url: 'git+https://github.com/paixaop/node-sodium.git' },
+49 silly resolved     keywords:
+49 silly resolved      [ 'encryption',
+49 silly resolved        'ed25519',
+49 silly resolved        'curve25519',
+49 silly resolved        'NaCl',
+49 silly resolved        'libsodium',
+49 silly resolved        'crypto',
+49 silly resolved        'unique',
+49 silly resolved        'stamp' ],
+49 silly resolved     gitHead: '2c010457f709cf0e8e8c5428ab0bcc730f9ea55f',
+49 silly resolved     bugs: { url: 'https://github.com/paixaop/node-sodium/issues' },
+49 silly resolved     homepage: 'https://github.com/paixaop/node-sodium#readme',
+49 silly resolved     _id: 'sodium@3.0.2',
+49 silly resolved     _npmVersion: '6.4.1',
+49 silly resolved     _nodeVersion: '10.13.0',
+49 silly resolved     _npmUser: { name: 'ppaixao', email: 'paixaop@gmail.com' },
+49 silly resolved     dist:
+49 silly resolved      { integrity: 'sha512-IsTwTJeoNBU97km3XkrbCGC/n/9aUQejgD3QPr2YY2gtbSPru3TI6nhCqgoez9Mv88frF9oVZS/jrXFbd6WXyA==',
+49 silly resolved        shasum: '4dbd7eb4a21c92ca7e7f684756cd733fee78112e',
+49 silly resolved        tarball: 'https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz',
+49 silly resolved        fileCount: 670,
+49 silly resolved        unpackedSize: 8366317,
+49 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcACqaCRA9TVsSAnZWagAAdxAQAJ3SiNKJo5aBurMra0yr\ngp2nDJXrgyaCMNddseIp/UsjYvjYr50N63s7eUjRhdNcKg3fVERq2tuxKIi2\nOiLzl/UYtbb9kA6sOlawQR+7O5WRCfbOQDTbawymZmdzq4JO/DdmSnE2jdYh\nL1cmHekiHzV4kqxHAv1LtQdNMJ/4km0g20tub6huMbPgrpLuCITQOXrUSo0s\nVdSSld9kiIQSnI6ee9Dycw63qRbLkfar3VtMQy4rw+e60H6T4KuE1OfJ3wQA\n61sG6IUKMjt1ybRzKNaY1dkLJOh4QQAit9vqsdNnIagAiZnJb1SH1mC7EKhN\n+8uPzg+j/4whgCryKfk9QjNa7l5bUc7dzdU0DQcZcG+UarLfmv2/2s+0gOP2\nJVS/lvMzHLjG6t9XItg3Z2r1gp8FAqMYezroL6lHWxuYGJK5VdODuYcuUDLa\ncyeWNv7BXRkXb2RocU7dZO5jUEXzRzTJPeGh4kBd8UF1M450nSv9EKc47xl8\nLPEh2k1211mlSHQfbytH0wzkU1/R8+a1A9uGUJ5/UqYoiC296krYitX8PZqw\nACjR4FSdVmBNjzKwtNjWlluqF6h9ggTwvacNWSTVS5JkOmSzj+ExnkCZhqC4\nQLLSBMCuq5xZv23+r907t41YRQDA2KGqZ6DZPr5G0H48W614x0mef01OwEfI\nbkMm\r\n=mCUR\r\n-----END PGP SIGNATURE-----\r\n' },
+49 silly resolved     maintainers: [ [Object] ],
+49 silly resolved     directories: {},
+49 silly resolved     _npmOperationalInternal:
+49 silly resolved      { host: 's3://npm-registry-packages',
+49 silly resolved        tmp: 'tmp/sodium_3.0.2_1543514777239_0.7244573595613206' },
+49 silly resolved     _hasShrinkwrap: false,
+49 silly resolved     _shasum: '4dbd7eb4a21c92ca7e7f684756cd733fee78112e',
+49 silly resolved     _from: 'sodium@',
+49 silly resolved     _resolved: 'https://registry.npmjs.org/sodium/-/sodium-3.0.2.tgz' } ]
+50 info install sodium@3.0.2 into /home/pi/dev/Discord-Bot1
+51 info installOne sodium@3.0.2
+52 verbose node_modules/sodium unbuild
+53 verbose tar unpack /home/pi/.npm/sodium/3.0.2/package.tgz
+54 silly lockFile c40fe15d-Discord-Bot1-node-modules-sodium tar:///home/pi/dev/Discord-Bot1/node_modules/sodium
+55 verbose lock tar:///home/pi/dev/Discord-Bot1/node_modules/sodium /home/pi/.npm/c40fe15d-Discord-Bot1-node-modules-sodium.lock
+56 silly lockFile a237216f--pi-npm-sodium-3-0-2-package-tgz tar:///home/pi/.npm/sodium/3.0.2/package.tgz
+57 verbose lock tar:///home/pi/.npm/sodium/3.0.2/package.tgz /home/pi/.npm/a237216f--pi-npm-sodium-3-0-2-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .dntrc
+61 silly gunzTarPerm extractEntry .gitmodules
+62 silly gunzTarPerm extractEntry .jsbeautifyrc
+63 silly gunzTarPerm extractEntry .jshintrc
+64 silly gunzTarPerm extractEntry .travis.yml
+65 silly gunzTarPerm extractEntry binding.gyp
+66 silly gunzTarPerm extractEntry CONTRIBUTING.md
+67 silly gunzTarPerm extractEntry exported_functions.js
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry install.js
+70 silly gunzTarPerm extractEntry LICENSE
+71 silly gunzTarPerm extractEntry Makefile
+72 silly gunzTarPerm extractEntry out.c
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm extractEntry deps/libsodium/AUTHORS
+75 silly gunzTarPerm extractEntry deps/libsodium/autogen.sh
+76 silly gunzTarPerm extractEntry deps/libsodium/builds/Makefile.am
+77 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Common.props
+78 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Debug.props
+79 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugDEXE.props
+80 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugDLL.props
+81 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugLEXE.props
+82 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugLIB.props
+83 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugLTCG.props
+84 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugSEXE.props
+85 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DLL.props
+86 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/EXE.props
+87 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/LIB.props
+88 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Link.props
+89 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/LTCG.props
+90 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Messages.props
+91 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Output.props
+92 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Release.props
+93 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseDEXE.props
+94 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseDLL.props
+95 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseLEXE.props
+96 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseLIB.props
+97 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseLTCG.props
+98 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseSEXE.props
+99 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Win32.props
+100 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/x64.props
+101 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/resource.h
+102 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/resource.rc
+103 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/version.h
+104 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium.import.props
+105 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium.import.xml
+106 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium.sln
+107 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.props
+108 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.vcxproj
+109 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.vcxproj.filters
+110 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.xml
+111 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium.import.props
+112 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium.import.xml
+113 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium.sln
+114 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.props
+115 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.vcxproj
+116 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.vcxproj.filters
+117 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.xml
+118 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium.import.props
+119 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium.import.xml
+120 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium.sln
+121 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.props
+122 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.vcxproj
+123 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.vcxproj.filters
+124 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.xml
+125 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium.import.props
+126 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium.import.xml
+127 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium.sln
+128 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.props
+129 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.vcxproj
+130 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.vcxproj.filters
+131 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.xml
+132 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium.import.props
+133 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium.import.xml
+134 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium.sln
+135 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.props
+136 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.vcxproj
+137 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.vcxproj.filters
+138 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.xml
+139 silly gunzTarPerm extractEntry deps/libsodium/ChangeLog
+140 silly gunzTarPerm extractEntry deps/libsodium/compile
+141 silly gunzTarPerm extractEntry deps/libsodium/config.guess
+142 silly gunzTarPerm extractEntry deps/libsodium/config.sub
+143 silly gunzTarPerm extractEntry deps/libsodium/configure.ac
+144 silly gunzTarPerm extractEntry deps/libsodium/contrib/Findsodium.cmake
+145 silly gunzTarPerm extractEntry deps/libsodium/contrib/Makefile.am
+146 silly gunzTarPerm extractEntry deps/libsodium/depcomp
+147 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-arm.sh
+148 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-armv7-a.sh
+149 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-armv8-a.sh
+150 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-build.sh
+151 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-mips32.sh
+152 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-mips64.sh
+153 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-x86_64.sh
+154 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-x86.sh
+155 silly gunzTarPerm extractEntry deps/libsodium/dist-build/emscripten.sh
+156 silly gunzTarPerm extractEntry deps/libsodium/dist-build/ios.sh
+157 silly gunzTarPerm extractEntry deps/libsodium/dist-build/Makefile.am
+158 silly gunzTarPerm extractEntry deps/libsodium/dist-build/msys2-win32.sh
+159 silly gunzTarPerm extractEntry deps/libsodium/dist-build/msys2-win64.sh
+160 silly gunzTarPerm extractEntry deps/libsodium/dist-build/nativeclient-pnacl.sh
+161 silly gunzTarPerm extractEntry deps/libsodium/dist-build/nativeclient-x86_64.sh
+162 silly gunzTarPerm extractEntry deps/libsodium/dist-build/nativeclient-x86.sh
+163 silly gunzTarPerm extractEntry deps/libsodium/install-sh
+164 silly gunzTarPerm extractEntry deps/libsodium/libsodium-uninstalled.pc.in
+165 silly gunzTarPerm extractEntry deps/libsodium/libsodium.pc.in
+166 silly gunzTarPerm extractEntry deps/libsodium/libsodium.sln
+167 silly gunzTarPerm extractEntry deps/libsodium/libsodium.vcxproj
+168 silly gunzTarPerm extractEntry deps/libsodium/libsodium.vcxproj.filters
+169 silly gunzTarPerm extractEntry deps/libsodium/LICENSE
+170 silly gunzTarPerm extractEntry deps/libsodium/ltmain.sh
+171 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_catchable_abrt.m4
+172 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_catchable_segv.m4
+173 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_compile_flag.m4
+174 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_define.m4
+175 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_link_flag.m4
+176 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_pthread.m4
+177 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_tls.m4
+178 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_valgrind_check.m4
+179 silly gunzTarPerm extractEntry deps/libsodium/m4/ld-output-def.m4
+180 silly gunzTarPerm extractEntry deps/libsodium/Makefile.am
+181 silly gunzTarPerm extractEntry deps/libsodium/missing
+182 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/Makefile.am
+183 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/process.bat
+184 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/rep.vbs
+185 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/sodium.props
+186 silly gunzTarPerm extractEntry deps/libsodium/README.markdown
+187 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c
+188 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c
+189 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c
+190 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/crypto_auth.c
+191 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c
+192 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c
+193 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c
+194 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/crypto_box_easy.c
+195 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/crypto_box_seal.c
+196 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/crypto_box.c
+197 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c
+198 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c
+199 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c
+200 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/core_ed25519.c
+201 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c
+202 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_25_5/base.h
+203 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_25_5/base2.h
+204 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_25_5/constants.h
+205 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_25_5/fe.h
+206 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_51/base.h
+207 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_51/base2.h
+208 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_51/constants.h
+209 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/ed25519/ref10/fe_51/fe.h
+210 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c
+211 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c
+212 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c
+213 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c
+214 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c
+215 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2.h
+216 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c
+217 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.h
+218 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c
+219 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.c
+220 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.h
+221 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c
+222 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.h
+223 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-load-avx2.h
+224 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-load-sse2.h
+225 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-load-sse41.h
+226 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c
+227 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c
+228 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c
+229 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/crypto_hash.c
+230 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c
+231 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c
+232 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c
+233 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c
+234 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c
+235 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c
+236 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_kx/crypto_kx.c
+237 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c
+238 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c
+239 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.h
+240 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna32.h
+241 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna64.h
+242 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c
+243 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.h
+244 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c
+245 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.h
+246 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c
+247 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.h
+248 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c
+249 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.h
+250 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c
+251 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c
+252 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c
+253 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c
+254 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c
+255 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.h
+256 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c
+257 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.h
+258 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-avx2.h
+259 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-avx512f.h
+260 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-ref.h
+261 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-ssse3.h
+262 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c
+263 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c
+264 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c
+265 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c
+266 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt.h
+267 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c
+268 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c
+269 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.h
+270 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c
+271 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c
+272 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c
+273 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c
+274 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c
+275 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.h
+276 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts_namespace.h
+277 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S
+278 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c
+279 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.h
+280 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c
+281 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe.h
+282 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c
+283 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S
+284 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_namespace.h
+285 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S
+286 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S
+287 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51.h
+288 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base_namespace.h
+289 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base.h
+290 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base.S
+291 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_namespace.h
+292 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.h
+293 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S
+294 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S
+295 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c
+296 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.h
+297 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c
+298 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c
+299 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c
+300 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c
+301 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c
+302 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c
+303 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c
+304 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash_ref.h
+305 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c
+306 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c
+307 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c
+308 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c
+309 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/crypto_sign.c
+310 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c
+311 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c
+312 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c
+313 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign_ed25519_ref10.h
+314 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c
+315 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c
+316 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c
+317 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.h
+318 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c
+319 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.h
+320 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u0.h
+321 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u1.h
+322 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u4.h
+323 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u8.h
+324 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c
+325 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.h
+326 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c
+327 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.h
+328 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/crypto_stream.c
+329 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c
+330 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.h
+331 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c
+332 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.h
+333 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S
+334 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c
+335 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.h
+336 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c
+337 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.h
+338 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c
+339 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.h
+340 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u0.h
+341 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u1.h
+342 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u4.h
+343 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u8.h
+344 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c
+345 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c
+346 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c
+347 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c
+348 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c
+349 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c
+350 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_verify/sodium/verify.c
+351 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/Makefile.am
+352 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium.h
+353 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/core.h
+354 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_aead_aes256gcm.h
+355 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h
+356 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_aead_xchacha20poly1305.h
+357 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha256.h
+358 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h
+359 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h
+360 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth.h
+361 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xchacha20poly1305.h
+362 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h
+363 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_box.h
+364 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_ed25519.h
+365 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_hchacha20.h
+366 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_hsalsa20.h
+367 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h
+368 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h
+369 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h
+370 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h
+371 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_generichash.h
+372 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h
+373 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h
+374 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_hash.h
+375 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_kdf_blake2b.h
+376 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_kdf.h
+377 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_kx.h
+378 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h
+379 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h
+380 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash_argon2i.h
+381 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash_argon2id.h
+382 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h
+383 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash.h
+384 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h
+385 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_scalarmult_ed25519.h
+386 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_scalarmult.h
+387 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretbox_xchacha20poly1305.h
+388 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h
+389 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretbox.h
+390 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretstream_xchacha20poly1305.h
+391 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h
+392 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_shorthash.h
+393 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h
+394 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_sign_edwards25519sha512batch.h
+395 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_sign.h
+396 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h
+397 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h
+398 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h
+399 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_salsa208.h
+400 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_xchacha20.h
+401 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h
+402 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream.h
+403 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_verify_16.h
+404 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_verify_32.h
+405 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_verify_64.h
+406 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/export.h
+407 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/common.h
+408 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/ed25519_ref10_fe_25_5.h
+409 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/ed25519_ref10_fe_51.h
+410 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/ed25519_ref10.h
+411 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/implementations.h
+412 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/mutex.h
+413 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/sse2_64_32.h
+414 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes_nativeclient.h
+415 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes_salsa20_random.h
+416 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes_sysrandom.h
+417 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes.h
+418 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/runtime.h
+419 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/utils.h
+420 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/version.h.in
+421 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/Makefile.am
+422 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/nativeclient/randombytes_nativeclient.c
+423 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/randombytes.c
+424 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/salsa20/randombytes_salsa20_random.c
+425 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/sysrandom/randombytes_sysrandom.c
+426 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/codecs.c
+427 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/core.c
+428 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/runtime.c
+429 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/utils.c
+430 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/version.c
+431 silly gunzTarPerm extractEntry deps/libsodium/src/Makefile.am
+432 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_aes256gcm.c
+433 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_aes256gcm.exp
+434 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_chacha20poly1305.c
+435 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_chacha20poly1305.exp
+436 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_xchacha20poly1305.c
+437 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_xchacha20poly1305.exp
+438 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth.c
+439 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth.exp
+440 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth2.c
+441 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth2.exp
+442 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth3.c
+443 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth3.exp
+444 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth5.c
+445 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth5.exp
+446 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth6.c
+447 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth6.exp
+448 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth7.c
+449 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth7.exp
+450 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy.c
+451 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy.exp
+452 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy2.c
+453 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy2.exp
+454 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seal.c
+455 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seal.exp
+456 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seed.c
+457 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seed.exp
+458 silly gunzTarPerm extractEntry deps/libsodium/test/default/box.c
+459 silly gunzTarPerm extractEntry deps/libsodium/test/default/box.exp
+460 silly gunzTarPerm extractEntry deps/libsodium/test/default/box2.c
+461 silly gunzTarPerm extractEntry deps/libsodium/test/default/box2.exp
+462 silly gunzTarPerm extractEntry deps/libsodium/test/default/box7.c
+463 silly gunzTarPerm extractEntry deps/libsodium/test/default/box7.exp
+464 silly gunzTarPerm extractEntry deps/libsodium/test/default/box8.c
+465 silly gunzTarPerm extractEntry deps/libsodium/test/default/box8.exp
+466 silly gunzTarPerm extractEntry deps/libsodium/test/default/chacha20.c
+467 silly gunzTarPerm extractEntry deps/libsodium/test/default/chacha20.exp
+468 silly gunzTarPerm extractEntry deps/libsodium/test/default/cmptest.h
+469 silly gunzTarPerm extractEntry deps/libsodium/test/default/codecs.c
+470 silly gunzTarPerm extractEntry deps/libsodium/test/default/codecs.exp
+471 silly gunzTarPerm extractEntry deps/libsodium/test/default/core_ed25519.c
+472 silly gunzTarPerm extractEntry deps/libsodium/test/default/core_ed25519.exp
+473 silly gunzTarPerm extractEntry deps/libsodium/test/default/core1.c
+474 silly gunzTarPerm extractEntry deps/libsodium/test/default/core1.exp
+475 silly gunzTarPerm extractEntry deps/libsodium/test/default/core2.c
+476 silly gunzTarPerm extractEntry deps/libsodium/test/default/core2.exp
+477 silly gunzTarPerm extractEntry deps/libsodium/test/default/core3.c
+478 silly gunzTarPerm extractEntry deps/libsodium/test/default/core3.exp
+479 silly gunzTarPerm extractEntry deps/libsodium/test/default/core4.c
+480 silly gunzTarPerm extractEntry deps/libsodium/test/default/core4.exp
+481 silly gunzTarPerm extractEntry deps/libsodium/test/default/core5.c
+482 silly gunzTarPerm extractEntry deps/libsodium/test/default/core5.exp
+483 silly gunzTarPerm extractEntry deps/libsodium/test/default/core6.c
+484 silly gunzTarPerm extractEntry deps/libsodium/test/default/core6.exp
+485 silly gunzTarPerm extractEntry deps/libsodium/test/default/ed25519_convert.c
+486 silly gunzTarPerm extractEntry deps/libsodium/test/default/ed25519_convert.exp
+487 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash.c
+488 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash.exp
+489 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash2.c
+490 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash2.exp
+491 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash3.c
+492 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash3.exp
+493 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash.c
+494 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash.exp
+495 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash2.exp
+496 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash3.c
+497 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash3.exp
+498 silly gunzTarPerm extractEntry deps/libsodium/test/default/kdf.c
+499 silly gunzTarPerm extractEntry deps/libsodium/test/default/kdf.exp
+500 silly gunzTarPerm extractEntry deps/libsodium/test/default/keygen.c
+501 silly gunzTarPerm extractEntry deps/libsodium/test/default/keygen.exp
+502 silly gunzTarPerm extractEntry deps/libsodium/test/default/kx.c
+503 silly gunzTarPerm extractEntry deps/libsodium/test/default/kx.exp
+504 silly gunzTarPerm extractEntry deps/libsodium/test/default/Makefile.am
+505 silly gunzTarPerm extractEntry deps/libsodium/test/default/metamorphic.c
+506 silly gunzTarPerm extractEntry deps/libsodium/test/default/metamorphic.exp
+507 silly gunzTarPerm extractEntry deps/libsodium/test/default/misuse.c
+508 silly gunzTarPerm extractEntry deps/libsodium/test/default/misuse.exp
+509 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth.c
+510 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth.exp
+511 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth2.c
+512 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth2.exp
+513 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth7.c
+514 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth7.exp
+515 silly gunzTarPerm extractEntry deps/libsodium/test/default/pre.js.inc
+516 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2i.c
+517 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2i.exp
+518 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2id.c
+519 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2id.exp
+520 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt_ll.c
+521 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt_ll.exp
+522 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt.c
+523 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt.exp
+524 silly gunzTarPerm extractEntry deps/libsodium/test/default/randombytes.c
+525 silly gunzTarPerm extractEntry deps/libsodium/test/default/randombytes.exp
+526 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult_ed25519.c
+527 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult_ed25519.exp
+528 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult.c
+529 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult.exp
+530 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult2.c
+531 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult2.exp
+532 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult5.c
+533 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult5.exp
+534 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult6.c
+535 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult6.exp
+536 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult7.c
+537 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult7.exp
+538 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy.c
+539 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy.exp
+540 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy2.c
+541 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy2.exp
+542 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox.c
+543 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox.exp
+544 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox2.c
+545 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox2.exp
+546 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox7.c
+547 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox7.exp
+548 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox8.c
+549 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox8.exp
+550 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretstream.c
+551 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretstream.exp
+552 silly gunzTarPerm extractEntry deps/libsodium/test/default/shorthash.c
+553 silly gunzTarPerm extractEntry deps/libsodium/test/default/shorthash.exp
+554 silly gunzTarPerm extractEntry deps/libsodium/test/default/sign.c
+555 silly gunzTarPerm extractEntry deps/libsodium/test/default/sign.exp
+556 silly gunzTarPerm extractEntry deps/libsodium/test/default/siphashx24.c
+557 silly gunzTarPerm extractEntry deps/libsodium/test/default/siphashx24.exp
+558 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_core.c
+559 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_core.exp
+560 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils.c
+561 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils.exp
+562 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils2.c
+563 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils2.exp
+564 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils3.c
+565 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils3.exp
+566 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_version.c
+567 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_version.exp
+568 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream.c
+569 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream.exp
+570 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream2.c
+571 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream2.exp
+572 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream3.c
+573 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream3.exp
+574 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream4.c
+575 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream4.exp
+576 silly gunzTarPerm extractEntry deps/libsodium/test/default/verify1.c
+577 silly gunzTarPerm extractEntry deps/libsodium/test/default/verify1.exp
+578 silly gunzTarPerm extractEntry deps/libsodium/test/default/wintest.bat
+579 silly gunzTarPerm extractEntry deps/libsodium/test/default/xchacha20.c
+580 silly gunzTarPerm extractEntry deps/libsodium/test/default/xchacha20.exp
+581 silly gunzTarPerm extractEntry deps/libsodium/test/Makefile.am
+582 silly gunzTarPerm extractEntry deps/libsodium/test/quirks/quirks.h
+583 silly gunzTarPerm extractEntry deps/libsodium/THANKS
+584 silly gunzTarPerm extractEntry deps/symbols.txt
+585 silly gunzTarPerm extractEntry docs/auth.md
+586 silly gunzTarPerm extractEntry docs/box.md
+587 silly gunzTarPerm extractEntry docs/crypto-base-buffer.md
+588 silly gunzTarPerm extractEntry docs/crypto-base.md
+589 silly gunzTarPerm extractEntry docs/generichash.md
+590 silly gunzTarPerm extractEntry docs/key-manager.md
+591 silly gunzTarPerm extractEntry docs/low-level-api.md
+592 silly gunzTarPerm extractEntry docs/not implemented.md
+593 silly gunzTarPerm extractEntry docs/onetime-auth.md
+594 silly gunzTarPerm extractEntry docs/ported-functions.md
+595 silly gunzTarPerm extractEntry docs/pwhash.md
+596 silly gunzTarPerm extractEntry docs/secretbox.md
+597 silly gunzTarPerm extractEntry docs/sign.md
+598 silly gunzTarPerm extractEntry docs/sodium.md
+599 silly gunzTarPerm extractEntry docs/stream.md
+600 silly gunzTarPerm extractEntry docs/toBuffer.md
+601 silly gunzTarPerm extractEntry examples/ECDH.js
+602 silly gunzTarPerm extractEntry examples/generichash.js
+603 silly gunzTarPerm extractEntry examples/low-level-api.js
+604 silly gunzTarPerm extractEntry examples/pwhash.js
+605 silly gunzTarPerm extractEntry lib/auth.js
+606 silly gunzTarPerm extractEntry lib/box.js
+607 silly gunzTarPerm extractEntry lib/crypto-base-buffer.js
+608 silly gunzTarPerm extractEntry lib/ecdh.js
+609 silly gunzTarPerm extractEntry lib/keys/auth-key.js
+610 silly gunzTarPerm extractEntry lib/keys/box-key.js
+611 silly gunzTarPerm extractEntry lib/keys/dh-key.js
+612 silly gunzTarPerm extractEntry lib/keys/keypair.js
+613 silly gunzTarPerm extractEntry lib/keys/onetime-key.js
+614 silly gunzTarPerm extractEntry lib/keys/secretbox-key.js
+615 silly gunzTarPerm extractEntry lib/keys/sign-key.js
+616 silly gunzTarPerm extractEntry lib/keys/stream-key.js
+617 silly gunzTarPerm extractEntry lib/nonces/box-nonce.js
+618 silly gunzTarPerm extractEntry lib/nonces/secretbox-nonce.js
+619 silly gunzTarPerm extractEntry lib/nonces/stream-nonce.js
+620 silly gunzTarPerm extractEntry lib/onetime-auth.js
+621 silly gunzTarPerm extractEntry lib/secretbox.js
+622 silly gunzTarPerm extractEntry lib/sign.js
+623 silly gunzTarPerm extractEntry lib/sodium.js
+624 silly gunzTarPerm extractEntry lib/stream.js
+625 silly gunzTarPerm extractEntry lib/toBuffer.js
+626 silly gunzTarPerm extractEntry src/crypto_aead.cc
+627 silly gunzTarPerm extractEntry src/crypto_auth_algos.cc
+628 silly gunzTarPerm extractEntry src/crypto_auth.cc
+629 silly gunzTarPerm extractEntry src/crypto_box_curve25519xsalsa20.cc
+630 silly gunzTarPerm extractEntry src/crypto_box_curve25519xsalsa20poly1305.cc
+631 silly gunzTarPerm extractEntry src/crypto_box.cc
+632 silly gunzTarPerm extractEntry src/crypto_core.cc
+633 silly gunzTarPerm extractEntry src/crypto_generichash_blake2b.cc
+634 silly gunzTarPerm extractEntry src/crypto_generichash.cc
+635 silly gunzTarPerm extractEntry src/crypto_hash_sha256.cc
+636 silly gunzTarPerm extractEntry src/crypto_hash_sha512.cc
+637 silly gunzTarPerm extractEntry src/crypto_hash.cc
+638 silly gunzTarPerm extractEntry src/crypto_onetimeauth_poly1305.cc
+639 silly gunzTarPerm extractEntry src/crypto_onetimeauth.cc
+640 silly gunzTarPerm extractEntry src/crypto_pwhash_algos.cc
+641 silly gunzTarPerm extractEntry src/crypto_pwhash.cc
+642 silly gunzTarPerm extractEntry src/crypto_scalarmult_curve25519.cc
+643 silly gunzTarPerm extractEntry src/crypto_scalarmult.cc
+644 silly gunzTarPerm extractEntry src/crypto_secretbox_xsalsa20poly1305.cc
+645 silly gunzTarPerm extractEntry src/crypto_secretbox.cc
+646 silly gunzTarPerm extractEntry src/crypto_shorthash_siphash24.cc
+647 silly gunzTarPerm extractEntry src/crypto_shorthash.cc
+648 silly gunzTarPerm extractEntry src/crypto_sign_ed25519.cc
+649 silly gunzTarPerm extractEntry src/crypto_sign.cc
+650 silly gunzTarPerm extractEntry src/crypto_stream.cc
+651 silly gunzTarPerm extractEntry src/crypto_streams.cc
+652 silly gunzTarPerm extractEntry src/helpers.cc
+653 silly gunzTarPerm extractEntry src/include/crypto_aead.h
+654 silly gunzTarPerm extractEntry src/include/crypto_auth_algos.h
+655 silly gunzTarPerm extractEntry src/include/crypto_core.h
+656 silly gunzTarPerm extractEntry src/include/crypto_onetimeauth_poly1305.h
+657 silly gunzTarPerm extractEntry src/include/crypto_pwhash_algos.h
+658 silly gunzTarPerm extractEntry src/include/crypto_scalarmult_curve25519.h
+659 silly gunzTarPerm extractEntry src/include/crypto_sign_ed25519.h
+660 silly gunzTarPerm extractEntry src/include/crypto_streams.h
+661 silly gunzTarPerm extractEntry src/include/node_sodium_register.h
+662 silly gunzTarPerm extractEntry src/include/node_sodium.h
+663 silly gunzTarPerm extractEntry src/randombytes.cc
+664 silly gunzTarPerm extractEntry src/sodium_runtime.cc
+665 silly gunzTarPerm extractEntry src/sodium.cc
+666 silly gunzTarPerm extractEntry test/test_aead_aes256gcm.js
+667 silly gunzTarPerm extractEntry test/test_auth.js
+668 silly gunzTarPerm extractEntry test/test_box.js
+669 silly gunzTarPerm extractEntry test/test_crypto_aead.js
+670 silly gunzTarPerm extractEntry test/test_crypto_auth.js
+671 silly gunzTarPerm extractEntry test/test_crypto_box_easy.js
+672 silly gunzTarPerm extractEntry test/test_crypto_box.js
+673 silly gunzTarPerm extractEntry test/test_crypto_constants.js
+674 silly gunzTarPerm extractEntry test/test_crypto_generichash_blake2b.js
+675 silly gunzTarPerm extractEntry test/test_crypto_generichash.js
+676 silly gunzTarPerm extractEntry test/test_crypto_hash.js
+677 silly gunzTarPerm extractEntry test/test_crypto_onetimeauth.js
+678 silly gunzTarPerm extractEntry test/test_crypto_pwhash.js
+679 silly gunzTarPerm extractEntry test/test_crypto_random.js
+680 silly gunzTarPerm extractEntry test/test_crypto_secretbox.js
+681 silly gunzTarPerm extractEntry test/test_crypto_sign.js
+682 silly gunzTarPerm extractEntry test/test_crypto_stream.js
+683 silly gunzTarPerm extractEntry test/test_crypto_string_comparisons.js
+684 silly gunzTarPerm extractEntry test/test_crypto_utils.js
+685 silly gunzTarPerm extractEntry test/test_crypto_version.js
+686 silly gunzTarPerm extractEntry test/test_crypto-base-buffer.js
+687 silly gunzTarPerm extractEntry test/test_dh.js
+688 silly gunzTarPerm extractEntry test/test_ecdh.js
+689 silly gunzTarPerm extractEntry test/test_key_all_key.js
+690 silly gunzTarPerm extractEntry test/test_key_all_keypair.js
+691 silly gunzTarPerm extractEntry test/test_key_keypair.js
+692 silly gunzTarPerm extractEntry test/test_large_numbers.js
+693 silly gunzTarPerm extractEntry test/test_libsodium_aead_aes256gcm.js
+694 silly gunzTarPerm extractEntry test/test_libsodium_aead_chacha20poly1305.js
+695 silly gunzTarPerm extractEntry test/test_libsodium_aead_xchacha20poly1305.js
+696 silly gunzTarPerm extractEntry test/test_libsodium_auth.js
+697 silly gunzTarPerm extractEntry test/test_libsodium_auth2.js
+698 silly gunzTarPerm extractEntry test/test_libsodium_auth3.js
+699 silly gunzTarPerm extractEntry test/test_libsodium_auth5.js
+700 silly gunzTarPerm extractEntry test/test_libsodium_auth6.js
+701 silly gunzTarPerm extractEntry test/test_libsodium_auth7.js
+702 silly gunzTarPerm extractEntry test/test_libsodium_box_easy.js
+703 silly gunzTarPerm extractEntry test/test_libsodium_box_easy2.js
+704 silly gunzTarPerm extractEntry test/test_libsodium_box_seal.js
+705 silly gunzTarPerm extractEntry test/test_libsodium_box_seed.js
+706 silly gunzTarPerm extractEntry test/test_libsodium_box.js
+707 silly gunzTarPerm extractEntry test/test_libsodium_box2.js
+708 silly gunzTarPerm extractEntry test/test_libsodium_box7.js
+709 silly gunzTarPerm extractEntry test/test_libsodium_box8.js
+710 silly gunzTarPerm extractEntry test/test_libsodium_core1.js
+711 silly gunzTarPerm extractEntry test/test_libsodium_core2.js
+712 silly gunzTarPerm extractEntry test/test_libsodium_hash.js
+713 silly gunzTarPerm extractEntry test/test_libsodium_pwhash_argon2i.js
+714 silly gunzTarPerm extractEntry test/test_libsodium_pwhash_argon2id.js
+715 silly gunzTarPerm extractEntry test/test_libsodium_pwhash_scrypt_ll.js
+716 silly gunzTarPerm extractEntry test/test_libsodium_pwhash_scrypt.js
+717 silly gunzTarPerm extractEntry test/test_nonces_all.js
+718 silly gunzTarPerm extractEntry test/test_onetime_auth.js
+719 silly gunzTarPerm extractEntry test/test_randombytes.js
+720 silly gunzTarPerm extractEntry test/test_secretbox.js
+721 silly gunzTarPerm extractEntry test/test_sign.js
+722 silly gunzTarPerm extractEntry test/test_sodium_algos_auth.js
+723 silly gunzTarPerm extractEntry test/test_sodium_auth.js
+724 silly gunzTarPerm extractEntry test/test_sodium_auth2.js
+725 silly gunzTarPerm extractEntry test/test_sodium_auth5.js
+726 silly gunzTarPerm extractEntry test/test_sodium.js
+727 silly gunzTarPerm extractEntry test/test_stream.js
+728 silly gunzTarPerm extractEntry test/test_toBuffer.js
+729 silly lockFile c40fe15d-Discord-Bot1-node-modules-sodium tar:///home/pi/dev/Discord-Bot1/node_modules/sodium
+730 silly lockFile c40fe15d-Discord-Bot1-node-modules-sodium tar:///home/pi/dev/Discord-Bot1/node_modules/sodium
+731 silly lockFile a237216f--pi-npm-sodium-3-0-2-package-tgz tar:///home/pi/.npm/sodium/3.0.2/package.tgz
+732 silly lockFile a237216f--pi-npm-sodium-3-0-2-package-tgz tar:///home/pi/.npm/sodium/3.0.2/package.tgz
+733 info preinstall sodium@3.0.2
+734 verbose unsafe-perm in lifecycle true
+735 info sodium@3.0.2 Failed to exec preinstall script
+736 verbose node_modules/sodium unbuild
+737 warn This failure might be due to the use of legacy binary "node"
+738 warn For further explanations, please read
+/usr/share/doc/nodejs/README.Debian
+739 info preuninstall sodium@3.0.2
+740 info uninstall sodium@3.0.2
+741 verbose true,/home/pi/dev/Discord-Bot1/node_modules,/home/pi/dev/Discord-Bot1/node_modules unbuild sodium@3.0.2
+742 info postuninstall sodium@3.0.2
+743 error sodium@3.0.2 preinstall: `node install.js --preinstall`
+743 error Exit status 1
+744 error Failed at the sodium@3.0.2 preinstall script.
+744 error This is most likely a problem with the sodium package,
+744 error not with npm itself.
+744 error Tell the author that this fails on your system:
+744 error     node install.js --preinstall
+744 error You can get their info via:
+744 error     npm owner ls sodium
+744 error There is likely additional logging output above.
+745 error System Linux 4.14.79-v7+
+746 error command "/usr/bin/node" "/usr/bin/npm" "install" "sodium"
+747 error cwd /home/pi/dev/Discord-Bot1
+748 error node -v v8.11.1
+749 error npm -v 1.4.21
+750 error code ELIFECYCLE
+751 verbose exit [ 1, true ]
