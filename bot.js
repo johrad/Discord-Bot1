@@ -17,14 +17,6 @@ client.on('ready', () => {
   console.log('');
 });
 
-
-// MAKE OOP !!!!!!
-
-// THIS IS NOW A REMINDER BOT!!!!!!!
-
-
-
-
 // Create an event listener for messages
 client.on('message', message => {
   // If the message is "ping"
